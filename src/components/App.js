@@ -7,13 +7,15 @@ const App = () => {
   function countClicks(){
     setCount(cunt + 1);
   }
-        return (
+     <div>
+         return (
           <div>
             <p>Button clicked {count} times</p>
             <button onClick={countClicks}>Click me</button>
           </div>
         )
-  )
+  );
+     </div>
 }
 
 export default App
